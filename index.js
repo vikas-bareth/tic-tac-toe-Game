@@ -17,6 +17,14 @@ function initGame(){
     newGameBtn.classList.remove("active");
     gameInfo.innerText = `Current Player - ${currentPlayer}`;
 }
+initGame()
+
+function handleClick(index){
+    if(gameGrid[index] === ""){
+        boxes[index].innerHTML = currentPlayer;
+        gameGrid[index] = currentPlayer; 
+    }
+}
 
 boxes.forEach((box,index) => {
     box.addEventListener("click", ()=>{
