@@ -69,8 +69,13 @@
     color: white;
     padding: 0.8rem 3rem;
     border-radius: 1rem;
-    font-weight: bold;
-    /* display: none; */
+    cursor:pointer;
+    transition: 200ms;
+   
+    display: none;
+}
+.btn:hover{
+    transform: scale(1.1);
 }
  .btn.active{
     display: flex;
