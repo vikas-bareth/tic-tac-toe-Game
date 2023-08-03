@@ -11,9 +11,9 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center; 
     background-size: cover;
+    gap: 90px;
 }
 
 .game-info{
@@ -23,6 +23,7 @@
     border-radius: 10px;
     color: white;
     font-style: bold;
+    margin-top: 30px;
 }
 
 .tic-tac-toe{
